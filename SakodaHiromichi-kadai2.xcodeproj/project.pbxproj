@@ -14,6 +14,7 @@
 		69846377290502670044D066 /* SakodaHiromichi_kadai2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69846376290502670044D066 /* SakodaHiromichi_kadai2Tests.swift */; };
 		69846381290502670044D066 /* SakodaHiromichi_kadai2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69846380290502670044D066 /* SakodaHiromichi_kadai2UITests.swift */; };
 		69846383290502670044D066 /* SakodaHiromichi_kadai2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69846382290502670044D066 /* SakodaHiromichi_kadai2UITestsLaunchTests.swift */; };
+		699C0F242907FB4D0021D42C /* DoubleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C0F232907FB4D0021D42C /* DoubleTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6984637C290502670044D066 /* SakodaHiromichi-kadai2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SakodaHiromichi-kadai2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69846380290502670044D066 /* SakodaHiromichi_kadai2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakodaHiromichi_kadai2UITests.swift; sourceTree = "<group>"; };
 		69846382290502670044D066 /* SakodaHiromichi_kadai2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakodaHiromichi_kadai2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		699C0F232907FB4D0021D42C /* DoubleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				69846365290502650044D066 /* SakodaHiromichi_kadai2App.swift */,
 				69846367290502650044D066 /* ContentView.swift */,
+				699C0F232907FB4D0021D42C /* DoubleTest.swift */,
 				69846369290502670044D066 /* Assets.xcassets */,
 				6984636B290502670044D066 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699C0F242907FB4D0021D42C /* DoubleTest.swift in Sources */,
 				69846368290502650044D066 /* ContentView.swift in Sources */,
 				69846366290502650044D066 /* SakodaHiromichi_kadai2App.swift in Sources */,
 			);
