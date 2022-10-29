@@ -15,7 +15,6 @@ struct ContentView: View {
     @State var total = "0"
     @State var selection = 0
 
-    
     var body: some View {
         VStack{
             HStack{
@@ -54,32 +53,22 @@ struct ContentView: View {
     func calculation() -> String {
         let num1 = (Double(numText1)) ?? 0
         let num2 = (Double(numText2)) ?? 0
-        
+
         switch selection {
         case 0:
-            let add = num1 + num2
-            return String(format: "%.1f", add)
+            return String(format: "%.1f", num1 + num2)
         case 1:
-            let subtraction = num1 - num2
-            return String(format: "%.1f", subtraction)
-            
+            return String(format: "%.1f", num1 - num2)
         case 2:
-            let multiplication = num1 * num2
-            return String(format: "%.1f", multiplication)
+            return String(format: "%.1f", num1 * num2)
         case 3:
-            if num1 == 0 || num2 == 0 {
-                total = "割る数には0以外を入力してください"
-                return total
+            if num2 == 0 {
+                return "割る数には0以外を入力してください"
             } else {
-                let division = num1 / num2
-                return String(format: "%.1f", division)
+                return String(format: "%.1f", num1 / num2)
             }
-            
         default :
-            fatalError("エラーが発生しました。")
-            //            break
-            //            let add = num1 + num2
-            //            return add
+            fatalError("selectionが異常です")
         }
     }
 }
